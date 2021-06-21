@@ -278,7 +278,8 @@ a {
 */
 
 .store-box {
-  border: 1px solid black;
+  border: 5px solid var(--cologne-earth-brown);
+  border-radius: 5px;
   width: 90%;
   display: flex;
   flex-wrap: wrap;
