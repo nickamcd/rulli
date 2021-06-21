@@ -2,7 +2,7 @@ import { useState } from "react"
 import * as FaIcons from "react-icons/fa"
 import * as AiIcons from "react-icons/ai"
 import { Link } from "react-router-dom"
-import { SidebarData } from "./SidebarData"
+import { NavbarData } from "./NavbarData"
 import "./Navbar.css"
 import { IconContext } from "react-icons"
 
@@ -25,7 +25,7 @@ const Navbar = () => {
               <AiIcons.AiOutlineClose />
             </Link>
           </li>
-          { SidebarData.map((item, index) => {
+          { NavbarData.map((item, index) => {
             return <li key={ index } className={ item.className } >
               <Link to={ item.path } >
                 { item.icon }

@@ -17,11 +17,58 @@
 .App {
   width: 100vw;
   height: 100vh;
+  background-color: var(--cosmic-latte);
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .home {
-  
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slider { 
+  position: relative;
+  height: 400px;
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider img {
+  max-height: 400px;
+  border-radius: 20px;
+}
+
+.icon {
+  position: absolute;
+  font-size: 2rem;
+  color: var(--cologne-earth-brown);
+  cursor: pointer;
+}
+
+.icon.left-arrow {
+  left: 50px;
+}
+
+.icon.right-arrow {
+  right: 50px;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 500ms;
+  transition-property: transform;
+  transform: scale(0.70);
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 500ms ease-out;
+  transform: scale(1.00);
 }
