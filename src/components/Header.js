@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 
-const Header = ({ onShow }) => {
+const Header = () => {
   return (
     <header>
       <Link to="/" >
