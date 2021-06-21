@@ -314,6 +314,7 @@ footer {
 
 footer img {
   margin: 15px;
+  border-radius: 0px;
 }
 
 footer img:hover {

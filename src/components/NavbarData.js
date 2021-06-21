@@ -28,12 +28,6 @@ export const NavbarData = [
     className: "nav-text"
   },
   {
-    title: "Gallery",
-    path: "/gallery",
-    icon: <IoIcons.IoIosPhotos />,
-    className: "nav-text"
-  },
-  {
     title: "Blog",
     path: "/blog",
     icon: <AiIcons.AiFillHome />,
