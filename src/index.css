@@ -234,6 +234,53 @@ a {
 
 /*
 --------------------
+  Product Page Styling
+--------------------
+*/
+
+.products {
+  width: 100%;
+  max-width: var(--large);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-grid {
+  width: 90%;
+  border: 5px solid var(--cologne-earth-brown);
+  border-radius: 10px;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  grid-auto-rows: minmax(80px, auto);
+  grid-auto-flow: dense;
+}
+
+.product {
+  border-radius: 10px;
+  grid-column-end: span 1;
+  grid-row-end: span 1;
+}
+
+.product img {
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+}
+
+.span-2 {
+  grid-column-end: span 2;
+  grid-row-end: span 2;
+}
+
+.span-3 {
+  grid-column-end: span 3;
+  grid-row-end: span 3;
+}
+
+/*
+--------------------
   Footer Styling
 --------------------
 */
