@@ -77,6 +77,14 @@ a {
   align-items: center;
 }
 
+.page {
+  width: 100%;
+  max-width: var(--large);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /*
 --------------------
   Navbar Styling
@@ -214,14 +222,6 @@ a {
 --------------------
 */
 
-.home {
-  width: 100%;
-  max-width: var(--large);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .home a {
   text-align: center;
 }
@@ -237,14 +237,6 @@ a {
   Product Page Styling
 --------------------
 */
-
-.products {
-  width: 100%;
-  max-width: var(--large);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
 .product-grid {
   width: 90%;
@@ -277,6 +269,16 @@ a {
 .span-3 {
   grid-column-end: span 3;
   grid-row-end: span 3;
+}
+
+/*
+--------------------
+  Store Page Styling
+--------------------
+*/
+
+.store-box {
+
 }
 
 /*

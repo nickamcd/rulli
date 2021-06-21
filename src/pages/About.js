@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div className="about">
+    <div className="about page">
       <h1>About Emporio Rulli</h1>
       <p>
         The Emporio Rulli concept is about creating a 

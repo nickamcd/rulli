@@ -4,7 +4,7 @@ import { SliderData } from "../components/SliderData"
 
 const Home = () => {
   return (
-    <div className="home">
+    <div className="home page">
       <ImageSlider slides={ SliderData }/>
       <h1>Welcome to Emporio Rulli</h1>
       <p>
