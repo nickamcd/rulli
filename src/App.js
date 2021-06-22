@@ -13,7 +13,6 @@ import About from "./pages/About"
 import Products from "./pages/Products"
 import Shop from "./pages/Shop"
 import Locations from "./pages/Locations"
-import Blog from "./pages/Blog"
 import Careers from "./pages/Careers"
 import Contact from "./pages/Contact"
 
@@ -34,7 +33,6 @@ const App = () => {
           <Route path='/locations' exact component={ Locations } />
           <Route path='/locations/larkspur' component={ Larkspur }/>
           <Route path='/locations/ristobar' component={ Ristobar } />
-          <Route path='/blog' component={ Blog } />
           <Route path='/careers' component={ Careers } />
           <Route path='/contact' component={ Contact } />
           <Route path='/facebook' component={ () => {
