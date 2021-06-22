@@ -316,6 +316,49 @@ a {
 
 /*
 --------------------
+  Location Styling
+--------------------
+*/
+
+.location-description {
+  width: 800px
+}
+
+.location-description h2, p, strong {
+  margin: 5px;
+  padding: 5px; 
+}
+
+.location-description strong {
+  color: var(--pine-tree);
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.location-description div ul {
+  list-style-type: circle;
+  margin-left: 40px;
+  font-size: 20px;
+}
+
+.larkspur .location-description img {
+  height: 230px;
+  float: right;
+}
+
+.ristobar .location-description img {
+  height: 230px;
+  float: left;
+  margin: 15px;
+}
+
+.location-description h2 {
+  color: var(--pine-tree);
+  font-size: 24px;
+}
+
+/*
+--------------------
   Footer Styling
 --------------------
 */
