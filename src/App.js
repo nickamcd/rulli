@@ -6,6 +6,8 @@ import {
 } from 'react-router-dom'
 import Header from "./components/Header"
 import Navbar from "./components/Navbar"
+import Footer from "./components/Footer"
+
 import Home from "./pages/Home"
 import About from "./pages/About"
 import Products from "./pages/Products"
@@ -14,7 +16,9 @@ import Locations from "./pages/Locations"
 import Blog from "./pages/Blog"
 import Careers from "./pages/Careers"
 import Contact from "./pages/Contact"
-import Footer from "./components/Footer"
+
+import Larkspur from "./pages/locations/Larkspur"
+import Ristobar from "./pages/locations/Ristobar"
 
 const App = () => {
   return (
@@ -27,7 +31,9 @@ const App = () => {
           <Route path='/about' component={ About } />
           <Route path='/products' component={ Products } />
           <Route path='/shop' component={ Shop } />
-          <Route path='/locations' component={ Locations } />
+          <Route path='/locations' exact component={ Locations } />
+          <Route path='/locations/larkspur' component={ Larkspur }/>
+          <Route path='/locations/ristobar' component={ Ristobar } />
           <Route path='/blog' component={ Blog } />
           <Route path='/careers' component={ Careers } />
           <Route path='/contact' component={ Contact } />
