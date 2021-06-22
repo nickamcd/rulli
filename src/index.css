@@ -382,6 +382,42 @@ a {
 
 /*
 --------------------
+  Contact Styling
+--------------------
+*/
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact input {
+  padding: 10px;
+  font-size: 20px;
+  margin: 10px;
+  width: 600px;
+}
+
+.contact textarea {
+  height: 15em;
+  font-size: 14px;
+  padding: 10px;
+  width: 750px;
+}
+
+::placeholder {
+  font-size: 16px;
+}
+
+.message-chars-left {
+  width: 600px;
+  margin: auto;
+  text-align: left;
+}
+
+/*
+--------------------
   Footer Styling
 --------------------
 */
