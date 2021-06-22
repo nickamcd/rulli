@@ -6,4 +6,11 @@ The assets for this page are taken from the [original site](https://www.rulli.co
 Skills practiced:
 - React function components and hooks
 - React routing
+- React form hooks
 - HTML and CSS styling
+
+Things that would improve this project
+- Hooking up EmailJS to allow the contact form to send email
+- Setting up an ecomerce section for the shop section
+- Cleaning up the routing
+- Refactoring code into more organized file structure
