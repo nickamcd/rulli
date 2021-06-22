@@ -360,6 +360,28 @@ a {
 
 /*
 --------------------
+  Careers Styling
+--------------------
+*/
+
+.careers p a {
+  color: var(--ambar);
+}
+
+.careers h3 {
+  text-decoration: underline;
+  align-self: center;
+  font-size: 28px;
+  margin: 15px;
+}
+
+.careers ul li a {
+  color: var(--cologne-earth-brown);
+  text-decoration: none;
+}
+
+/*
+--------------------
   Footer Styling
 --------------------
 */
