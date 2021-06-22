@@ -22,7 +22,6 @@ import Ristobar from "./pages/locations/Ristobar"
 const App = () => {
   return (
     <div className="App">
-      <Router>
         <Navbar />
         <Header />
         <Switch>
@@ -65,7 +64,6 @@ const App = () => {
           } }/>
         </Switch>
         <Footer />
-      </Router>
     </div>
   );
 }
