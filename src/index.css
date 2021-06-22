@@ -344,6 +344,7 @@ a {
 .larkspur .location-description img {
   height: 230px;
   float: right;
+  margin: 15px;
 }
 
 .ristobar .location-description img {
